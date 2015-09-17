@@ -89,7 +89,7 @@ private
           print_results
           @page = :list
         when "q"  #BACKSPACE
-          display.exit
+          exit
       end
     end
   end
